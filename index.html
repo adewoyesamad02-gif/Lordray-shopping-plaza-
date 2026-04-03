@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lordray Shopping Plaza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <h1>🛒 Lordray Shopping Plaza</h1>
+            <a href="cart.html" class="cart-link">🛍️ View Cart (<span id="cart-count">0</span>)</a>
+        </div>
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Search for products..." onkeyup="searchProducts()">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="products" id="products-container">
+            <!-- Products will be loaded here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Lordray Shopping Plaza. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
