@@ -24,7 +24,73 @@ HTML
 <!-- HERO SECTION -->
 <div class="hero">
   <h1>Biggest Deals of the Day</h1>
-  <p>Shop now and save more</p>
+  <p>Shop now and save more</p>  font-family: Arial;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: orange;
+  padding: 10px 20px;
+}
+
+.navbar input {
+  width: 40%;
+  padding: 8px;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, orange, red);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+/* PRODUCTS GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+/* PRODUCT CARD */
+.product {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* CART BADGE */
+.cart-icon {
+  position: relative;
+}
+
+#cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 50%;
 </div>
 
 <!-- PRODUCTS -->
