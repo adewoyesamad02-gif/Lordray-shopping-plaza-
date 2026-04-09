@@ -1,64 +1,37 @@
+HTML
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lordray Shopping Plaza</title>
-    <link rel="stylesheet" href="style.css">
+  <title>My Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header-top">
-            <h1>🛒 Lordray Shopping Plaza</h1>
-            <a href="cart.html" class="cart-link">🛍️ View Cart (<span id="cart-count">0</span>)</a>
-        </div>
-        <div class="search">
-            <input type="text" id="search-input" placeholder="Search for products..." onkeyup="searchProducts()">
-        </div>
-    </header>
 
-    <div class="container">
-        <div class="products" id="products-container">
-            <!-- Products will be loaded here -->
-        </div>
-    </div>
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>MyShop</h2>
 
-    <footer>
-        <p>&copy; 2026 Lordray Shopping Plaza. All rights reserved.</p>
-    </footer>
+  <input type="text" placeholder="Search products..." id="search">
 
-    <script src="script.js"></script>
+  <div>
+    <a href="orders.html">Orders</a>
+    <a href="cart.html" class="cart-icon">
+      🛒 <span id="cart-count"></span>
+    </a>
+  </div>
+</div>
+
+<!-- HERO SECTION -->
+<div class="hero">
+  <h1>Biggest Deals of the Day</h1>
+  <p>Shop now and save more</p>
+</div>
+
+<!-- PRODUCTS -->
+<h2 class="section-title">Products</h2>
+<div id="products" class="product-grid"></div>
+
+<script src="script.js"></script>
+<script src="main.js"></script>
 </body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lordray Shopping Plaza</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="header-top">
-            <h1>🛒 Lordray Shopping Plaza</h1>
-            <a href="cart.html" class="cart-link">🛍️ View Cart (<span id="cart-count">0</span>)</a>
-        </div>
-        <div class="search">
-            <input type="text" id="search-input" placeholder="Search for products..." onkeyup="searchProducts()">
-        </div>
-    </header>
-
-    <div class="container">
-        <div class="products" id="products-container">
-            <!-- Products will be loaded here -->
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2026 Lordray Shopping Plaza. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
-    <a href="login.html">
-</body>
-</html>
+    </html>
